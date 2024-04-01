@@ -1,0 +1,4 @@
+a=input()
+if(a.isnumberic()):
+  a=int(a)
+  print(a,type(a))

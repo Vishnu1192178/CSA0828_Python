@@ -1,0 +1,2 @@
+s=intput()
+print("The length of the Given dtring is : ",len(s))

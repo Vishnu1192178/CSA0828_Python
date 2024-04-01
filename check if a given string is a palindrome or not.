@@ -1,0 +1,10 @@
+def palindrome(a):
+b=''
+for i in a:
+b=i+b
+if(b.lower()==a.lower()):
+print('Palindrome')
+else:
+print('Not a Palindrome')
+a=input()
+palindrome(a)

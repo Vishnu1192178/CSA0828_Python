@@ -1,0 +1,9 @@
+def sum_of_list(numbers):
+   return sum(numbers)  
+
+number_list = [float(num) for num in input("Enter numbers separated by spaces (or 'q' to quit): ").split()]
+
+if number_list:
+  print("The sum of the numbers is:", sum_of_list(number_list))
+else:
+  print("No numbers were entered.")

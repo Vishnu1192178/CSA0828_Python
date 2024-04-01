@@ -1,0 +1,7 @@
+l=[13,45,23,11,10,10,44,53,67]
+l1=[]
+b=int(input())
+for i in range(len(l)):
+  if(l[i]!=b):
+    l1.append(l[i])
+    print(l1)

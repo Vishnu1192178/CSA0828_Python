@@ -1,0 +1,3 @@
+l=[int(input()) for i in range(int(input()))]
+print("list=",l)
+print("The sum of odd number in list is :",sum([x for x in l if x%2!=0]))

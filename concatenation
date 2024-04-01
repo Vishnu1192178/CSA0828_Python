@@ -1,0 +1,3 @@
+a=input()
+b=input()
+print("The string after concatenation is : ",a+b)

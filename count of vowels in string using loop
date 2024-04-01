@@ -1,0 +1,5 @@
+def count_vowels(text):
+ return sum(c in "aeiouAEIOU" for c in text)
+
+text = input("Enter a string: ")
+print(f"Number of vowels: {count_vowels(text)}")

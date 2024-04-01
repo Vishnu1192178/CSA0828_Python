@@ -1,0 +1,6 @@
+import cmath
+a,b,c=int(input()),int(input()),int(input())
+qf=cmath.sqrt(abs((b**2)-4*a*c))
+r1=(-b+qf)/(2*a)
+r2=(-b-qf)/(2*a)
+print("roots are {0} and {1} respectively".format(r1,r2))

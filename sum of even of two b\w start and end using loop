@@ -1,0 +1,6 @@
+def sum_even(start, end):
+  return sum(range(start + (start % 2), end + 1, 2))
+
+start_num = int(input("Enter the starting number: "))
+end_num = int(input("Enter the ending number: "))
+print("Sum of even numbers:", sum_even(start_num, end_num))

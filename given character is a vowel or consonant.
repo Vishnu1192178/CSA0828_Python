@@ -1,0 +1,3 @@
+a=input()
+ print("The character is a vowel" if a.lower() in ('a', 'e', 'i', 'o', 'u')
+ else "The Character is Consonant")

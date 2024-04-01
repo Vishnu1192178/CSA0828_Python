@@ -1,0 +1,13 @@
+def fibonacci(n):
+
+  if n <= 0:
+    return []
+  a, b = 0, 1
+  fib_list = []
+  for _ in range(n):
+    fib_list.append(a)
+    a, b = b, a + b
+  return fib_list
+
+num_terms = int(input("Enter the number of terms: "))
+print(f"The first {num_terms} Fibonacci numbers are: {fibonacci(num_terms)}")

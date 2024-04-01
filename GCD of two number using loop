@@ -1,0 +1,10 @@
+def gcd(num1, num2):
+  gcd_value = min(num1, num2)  
+  for i in range(1, gcd_value + 1):
+    if num1 % i == 0 and num2 % i == 0:
+      gcd_value = i 
+  return gcd_value
+
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+print(f"GCD of {number1} and {number2} is: {gcd(number1, number2)}")

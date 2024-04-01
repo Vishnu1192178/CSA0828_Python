@@ -1,0 +1,14 @@
+def c(a):
+  i=0
+  while(a!=0):
+    i+=1
+    a//=10
+    return i
+  def palindrone(a):
+    if(a<10):
+      return a
+    else:
+      a=(a%10)*10**c(a//10)+palindrome(a//10)
+      return a
+    a=int(input())
+    print("entered number is palindrome" if a==palindrome(a) else "entered number is not a palindrome")

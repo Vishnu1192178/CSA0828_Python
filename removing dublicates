@@ -1,0 +1,7 @@
+list_value1=[12,15,11,12,8,15,3,3]
+print("the initialization lidt is",list_value1)
+res_list=[]
+for i in list_value1:
+  if i not in res_list:
+    res_list.append(i)
+    print("The resultant list after removing dublicates is",res_list)

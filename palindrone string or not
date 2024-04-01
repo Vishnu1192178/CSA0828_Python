@@ -1,0 +1,8 @@
+a=input()
+b=''
+for i in a:
+  b=i+b
+  if(b.lower()==a.lower()):
+    print("given string is palindrone")
+  else:
+    print("given not")

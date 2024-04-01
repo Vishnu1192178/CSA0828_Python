@@ -1,0 +1,11 @@
+import math
+
+pi = math.pi  
+
+radius = float(input("Enter the circle's radius: "))
+
+if radius >= 0:  
+  area = pi * radius * radius
+  print(f"Area (radius {radius:.2f}): {area:.2f}")   
+else:
+  print("Error: Radius cannot be negative.")
